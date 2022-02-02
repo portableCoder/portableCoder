@@ -5,7 +5,6 @@
 
 - 📖 &nbsp; Learning all that I can, currently doing a lot of react and front-end stuff
 - ⚙️ &nbsp; Working on my own software to fit my personal use cases.
-- 🎓 &nbsp; I believe in self teaching. Currently pursuing a Computer Science degree
 - 🧐 &nbsp; Avid 🎮 Gamer , love playing and learning about game dev. Love watching quality movies
 
 <h3> 🛠 Technologies I use/have learnt 🛠  </h3>
