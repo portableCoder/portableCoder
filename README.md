@@ -11,10 +11,10 @@
 
 - 💻 |<b> Languages </b>|
   <br/>
-  Javascript | Python | Dart | Java | C++
+  Typescript | Python | Dart | Java | C++
 - 🌐 |<b> Frameworks/Technologies </b>|
   <br/>
-  Android | Flutter | HTML | CSS | JavaScript | React | ElectronJS
+  Android | Flutter | JavaScript | React | ElectronJS
 - 🛢 |<b> Databases </b>|
   <br/>
   MySQL | Firebase
