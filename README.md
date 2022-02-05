@@ -14,7 +14,7 @@
   Typescript | Python | Dart | Java | C++
 - 🌐 |<b> Frameworks/Technologies </b>|
   <br/>
-  Android | Flutter | JavaScript | React | ElectronJS
+  Android | Flutter | React | ElectronJS | React-Native | Svelte 
 - 🛢 |<b> Databases </b>|
   <br/>
   MySQL | Firebase
