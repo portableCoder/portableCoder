@@ -1,7 +1,7 @@
 <h2>👋 Hello! I'm portableCoder 👋</h2>
 <img align="right" alt="GIF" src="https://c.tenor.com/KBe_nw4IL2QAAAAC/matrix-code.gif" height="100%" width="500"/>
 
-<h> About Me </h3>
+ ### About Me 
 
 - 📖 &nbsp; Learning all that I can, currently doing a lot of react and front-end stuff
 - ⚙️ &nbsp; Working on my own software to fit my personal use cases.
