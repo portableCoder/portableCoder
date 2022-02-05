@@ -11,7 +11,7 @@
 
 - 💻 |<b> Languages </b>|
   <br/>
-  Typescript | Python | Dart | Java | C++
+  Typescript | Javascript | Python | Dart | Java | C++
 - 🌐 |<b> Frameworks/Technologies </b>|
   <br/>
   Android | Flutter | React | ElectronJS | React-Native | Svelte 
@@ -21,7 +21,7 @@
 - 🔧 |<b> Tools </b>|
   <br/>
 
-  Android Studio | PyCharm | Visual Studio code | Eclipse | Git
+  Android Studio | PyCharm | Visual Studio Code/Community | Eclipse/IntelliJ Idea | Git (VCS)
 
 - 💿 |<b> Operating Systems </b>|
   <br/>
