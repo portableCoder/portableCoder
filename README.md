@@ -5,13 +5,13 @@
 
 - 📖 &nbsp; Learning all that I can, currently doing a lot of react and front-end stuff
 - ⚙️ &nbsp; Working on my own software to fit my personal use cases.
-- 🧐 &nbsp; Avid 🎮 Gamer , love playing and learning about game dev. Love watching quality movies
+- 🧐 &nbsp; Avid 🎮 Gamer , love playing and learning about game dev.
 
 <h3> 🛠 Technologies I use/have learnt 🛠  </h3>
 
 - 💻 |<b> Languages </b>|
   <br/>
-  Typescript | Javascript | Python | Dart | Java | C++
+  Typescript | Javascript | Python | Java 
 - 🌐 |<b> Frameworks/Technologies </b>|
   <br/>
   Android | Flutter | React | ElectronJS | React-Native | Svelte 
@@ -25,7 +25,7 @@
 
 - 💿 |<b> Operating Systems </b>|
   <br/>
-- 🪟 Windows | 🐧 GNU/Linux
+- 🪟 Windows | 🐧 GNU/Linux 
 
 <br>
 <table>
@@ -44,7 +44,7 @@
 
 <h3> 🤝🏻 Connect with Me </h3>
 
-<p align="center">
+<p id="list" align="center">
 
 </p>
 
