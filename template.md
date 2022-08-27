@@ -43,9 +43,6 @@
 </br>
 
 <h3> 🤝🏻 Connect with Me </h3>
-
 [portableCoder](https://github.com/portableCoder)
 
 <h3>👀 Check out my blogs </h3>
-
-- [How I Created A CLI Based Wordle Clone With React](https://portablecoder.github.io/portableThoughts/thoughts/How-I-Created-A-CLI-Based-Wordle-Clone-With-React)

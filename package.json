@@ -1,0 +1,14 @@
+{
+  "name": "portableCoder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/portableCoder/portableCoder.git",
+  "author": "portableCoder",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
