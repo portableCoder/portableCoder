@@ -46,4 +46,4 @@
 
 <h3>👀 Check out my blogs </h3>
 
-- [How I Created A CLI Based Wordle Clone With React](https://portablecoder.github.io/portableThoughts/thoughts/How-I-Created-A-CLI-Based-Wordle-Clone-With-React)
+- [How I Created A CLI Based Wordle Clone With React](https://portablecoder.github.io/portableThoughts/thoughts/how-i-created-a-cli-based-wordle-clone-with-react)
