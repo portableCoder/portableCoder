@@ -1,4 +1,15 @@
 ---
+import '@fontsource/jetbrains-mono'
+import '@fontsource/roboto'
+import '@fontsource/inter-tight'
+import './global.css'
+
+import Header from '../components/Header.astro'
+import Home from '../components/Home.astro'
+import Skills from '../components/Skills'
+import Footer from '../components/Footer.astro'
+import Projects from '../components/Projects'
+import Contact from '../components/Contact'
 ---
 
 <html lang="en">
@@ -9,7 +20,12 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="bg-zinc-95 font-inter text-white bg-zinc-950 flex flex-col gap-y-4">
+		<Header/>
+		<Home/>
+		<Skills client:visible/>
+		<Projects client:visible/>
+		<Contact client:visible/>
+		<Footer />
 	</body>
 </html>
