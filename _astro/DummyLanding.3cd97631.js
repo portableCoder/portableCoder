@@ -1,0 +1,1 @@
+import{r as t}from"./index.13fb2395.js";import{u as o}from"./useSection.087fa920.js";import{j as e}from"./jsx-runtime.0a5ddef3.js";import"./_commonjsHelpers.23102255.js";const a=()=>{const[r]=o("landing");return t.useEffect(()=>{r.current&&r.current.scrollIntoView({behavior:"smooth"})},[]),e.jsx("div",{ref:r})};export{a as default};
