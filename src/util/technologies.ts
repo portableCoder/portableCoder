@@ -16,9 +16,9 @@ import {
     SiWindows,
     SiElectron,
     SiJest,
-} from 'react-icons/si';
+} from 'react-icons/si/index';
 
-import { BiLogoJava } from 'react-icons/bi';
+import { BiLogoJava } from 'react-icons/bi/index';
 
 const technologies = {
     "ReactJS": {

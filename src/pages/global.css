@@ -1,15 +1,14 @@
 html,
 body {
-  overflow-x: hidden;
-
-  @apply selection:bg-indigo-500 py-2 px-2 md:px-4 min-h-screen w-screen;
-}
-body {
+  overflow-x: clip;
+  scroll-behavior: smooth;
   scrollbar-gutter: stable both-edges;
+  @apply selection:bg-indigo-500   md:px-4 min-h-screen w-screen;
 }
+
 .path {
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
   animation: dash 4s alternate forwards;
 }
 
@@ -17,4 +16,7 @@ body {
   to {
     stroke-dashoffset: 0;
   }
+}
+.btn {
+  @apply p-2 border border-zinc-600 hover:bg-white hover:text-black transition-all duration-200;
 }

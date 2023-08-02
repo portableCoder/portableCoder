@@ -3,7 +3,7 @@ import {
   VscChromeMaximize as Maximize,
   VscChromeMinimize as Minimize,
   VscChromeClose as Close,
-} from "react-icons/vsc";
+} from "react-icons/vsc/index";
 interface WindowProps extends React.HTMLProps<HTMLDivElement> {
   children: ReactNode;
   title?: string;
@@ -11,7 +11,11 @@ interface WindowProps extends React.HTMLProps<HTMLDivElement> {
 const Window = React.forwardRef<HTMLDivElement, WindowProps>((props, ref) => {
   const { title, children, className } = props;
   return (
-    <div ref={ref} {...props} className={`border-2 border-white ${className}`}>
+    <div
+      ref={ref}
+      {...props}
+      className={`border-2 border-zinc-600 ${className}`}
+    >
       <div className="p-1  md:p-2  bg-white flex justify-between">
         <div className="text-black">{title}</div>
         <div className="flex gap-x-2 text-black items-center text-lg md:text-2xl ">

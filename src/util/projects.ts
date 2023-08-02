@@ -1,11 +1,11 @@
 const projects = [
     {
         name: "Novomemo",
-        description: "Novomemo is a note-taking app that focuses on simplicity and ease of use. Built with Nextjs, Typescript & Supabase.\n\nNovomemo supports both online & offline modes of note-taking (one can use the application offline if they do not wish to sign up). It supports note taking in both markdown and a visual editor. It supports labelling and full text searching.",
+        description: "Novomemo is a note-taking app that focuses on simplicity and ease of use. Built with Nextjs, Typescript & Supabase.\n\nNovomemo supports both online & offline modes of note-taking (one can use the application offline if they do not wish to sign up). It supports note taking in both markdown and a visual editor, along with labelling and full text searching.",
         images: [
             "https://raw.githubusercontent.com/portableCoder/Novomemo/master/assets/Banner.png"
         ],
-        technologies: ["NextJS", "Typescript", "Supabase", "Tailwind", "PostgreSQL"],
+        technologies: ["NextJS", "Typescript", "Supabase", "TailwindCSS", "PostgreSQL"],
         link: ["", ""]
     },
     {
@@ -30,7 +30,7 @@ const projects = [
         images: [
             "https://github.com/portableCoder/Soundly/blob/master/assets/ff.png?raw=true"
         ],
-        technologies: ["Windows", "Electron", "ReactJS"],
+        technologies: ["Windows", "Electron", "ReactJS",],
         link: ["", ""]
     },
 
@@ -39,7 +39,7 @@ const projects = [
         description: "Spellify is a simple web-app built with NextJS, designed to improve comprehension skills. It uses the native voice synthesis api present on the Browser and generates spelling prompts in which the user has to listen to the generated word and spell it correctly.\n\nThe user must choose between three levels of difficulty: Easy, Medium & Hard. The number of prompts and lengths of words increases with each difficulty level. The user can see their score, and their spelling accuracy. The user can also practice incorrect words and hone their spelling.",
         images: [
 
-            "https://raw.github.com/portableCoder/Spellify/master/logo.png"
+            "https://raw.github.com/portableCoder/Spellify/master/Spellify.png"
 
         ],
         technologies: ["NextJS"],

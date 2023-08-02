@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import type { Skill } from "../util/skills";
-import { BiChevronRight, BiChevronDown, BiFolder } from "react-icons/bi";
+import { BiChevronRight, BiChevronDown, BiFolder } from "react-icons/bi/index";
 import technologies, { Tech } from "../util/technologies";
 interface TreeViewProps {
   skill: Skill;
