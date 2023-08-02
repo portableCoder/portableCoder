@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import MySkills from "../util/skills";
 import TreeView from "./TreeView";
 import technologies, { Tech } from "../util/technologies";
@@ -27,11 +27,10 @@ export default function Skills() {
     opacity: inView ? 1 : 0,
   });
   return (
-    <animated.div
+    <animated.section
       ref={containerRef}
       style={spring}
       id="skills"
-      role="skills"
       className="min-w-screen  min-h-screen p-4 flex flex-col gap-y-4 overflow-hidden"
     >
       <SectionHeading name="Skills" />
@@ -76,6 +75,6 @@ export default function Skills() {
           />
         </div>
       </div>
-    </animated.div>
+    </animated.section>
   );
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import useIsMobile from "../util/useIsMobile";
 import { IoClose, IoMenuOutline } from "react-icons/io5/index";
 import { animated, useSpring } from "react-spring";
@@ -16,11 +16,11 @@ const Sidebar = () => {
   }
   return (
     <nav
-      role="navigation"
       className={`flex justify-between   gap-x-4 text-xs md:text-2xl items-center`}
     >
       {isMobile && (
         <button
+          aria-label="Menu"
           className="text-xl"
           onClick={() => {
             setOpen((prev) => !prev);
@@ -30,7 +30,7 @@ const Sidebar = () => {
         </button>
       )}
       {!isMobile && (
-        <div className="flex gap-x-4">
+        <div role="menu" className="flex gap-x-4">
           <MenuItems onClick={() => {}} />
         </div>
       )}
@@ -41,20 +41,19 @@ const Sidebar = () => {
             ...barSpring,
             x: barSpring.x.to((el) => `${el}vw`),
           }}
-          role="menubar"
-          className="fixed text-xl top-0 left-0 z-50 w-full h-full flex flex-col gap-y-4  bg-zinc-900 bg-opacity-70 backdrop-blur-2xl p-4"
+          className="fixed text-xl top-0 left-0 z-50 w-full h-full  bg-zinc-900 bg-opacity-70 backdrop-blur-2xl p-4"
         >
-          <div role="heading" className="text-4xl">
-            Menu
+          <div className="text-4xl my-2">Menu</div>
+          <div role="menu" className="w-full h-full flex flex-col gap-y-4 ">
+            <MenuItems onClick={onItemClick} />
+            <button
+              role="menuitem"
+              className="gap-x-2 items-center flex"
+              onClick={onItemClick}
+            >
+              <IoClose className="text-center" /> <span> Close </span>
+            </button>
           </div>
-          <MenuItems onClick={onItemClick} />
-          <button
-            role="menuitem"
-            className="gap-x-2 items-center flex"
-            onClick={onItemClick}
-          >
-            <IoClose className="text-center" /> <span> Close </span>
-          </button>
         </animated.div>
       )}
     </nav>

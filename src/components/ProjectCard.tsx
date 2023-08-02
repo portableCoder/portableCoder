@@ -21,7 +21,7 @@ const ProjectCard = (props: ProjectCardProps) => {
     <>
       <animated.div className=" col-span-2 md:col-span-1 w-full h-full flex flex-col gap-y-2 border-2 border-zinc-600">
         <animated.img
-          role="figure"
+          alt="project"
           style={{
             ...imgSpring,
             imageRendering: "crisp-edges",

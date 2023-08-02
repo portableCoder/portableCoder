@@ -18,7 +18,7 @@ const TreeView = ({
 }: TreeViewProps) => {
   const [open, setOpen] = useState(true);
   const cls = `flex flex-col gap-y-2 text-sm p-2 box-border ${
-    selectedTech === skillName ? "bg-indigo-500" : ""
+    selectedTech === skillName ? "bg-indigo-600" : ""
   }  `;
   const ob = Object.entries(skill);
   let margins = {
@@ -41,10 +41,10 @@ const TreeView = ({
           className={cls}
           style={margins}
         >
-          <div className="flex items-center md:text-lg gap-x-2 ">
+          <span className="flex items-center md:text-lg gap-x-2 ">
             {<Icon />}
             {skillName}
-          </div>
+          </span>
         </button>
       </div>
     );

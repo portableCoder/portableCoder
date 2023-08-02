@@ -33,7 +33,16 @@ const Contact = () => {
   const [ref] = useSection("contact");
   const inputRef = useRef<HTMLInputElement>(null);
   const bodyRef = useRef<HTMLTextAreaElement>(null);
-
+  const sendMail = () => {
+    const inp = inputRef.current;
+    const body = bodyRef.current;
+    if (inp && body) {
+      openEmailWithSubjectAndBody(
+        "Contact portableCoder",
+        `Hello, I'm ${inp.value} \n` + `${body.value}`
+      );
+    }
+  };
   return (
     <div
       ref={ref}
@@ -43,35 +52,42 @@ const Contact = () => {
       <div className="md:w-1/2 w-full flex flex-col gap-y-12  ">
         <SectionHeading name="Contact" />
         <Window title="Contact" className="w-full ">
-          <div className="w-full h-full flex flex-col  gap-y-4 p-2 md:p-4">
-            <input
-              ref={inputRef}
-              className="focus:outline-none bg-transparent w-min border-white border-2 focus:border-indigo-500 text-white p-2"
-              placeholder="Your Name"
-            />
-            <textarea
-              ref={bodyRef}
-              rows={10}
-              className="focus:outline-none bg-transparent w-full border-white border-2 focus:border-indigo-500 text-white p-2"
-              placeholder="Your Message"
-            />
+          <form
+            onSubmit={sendMail}
+            className="w-full h-full flex flex-col  gap-y-4 p-2 md:p-4"
+          >
+            <div className="flex flex-col">
+              <label htmlFor="#name">Name</label>
+              <input
+                id="name"
+                required
+                aria-required
+                ref={inputRef}
+                className="focus:outline-none bg-transparent w-min border-white border-2 focus:border-indigo-500 text-white p-2"
+                placeholder="Your Name"
+              />
+            </div>
+            <div className="flex flex-col">
+              <label htmlFor="#message">Message</label>
+              <textarea
+                id="message"
+                required
+                aria-required
+                ref={bodyRef}
+                rows={10}
+                className="focus:outline-none bg-transparent w-full border-white border-2 focus:border-indigo-500 text-white p-2"
+                placeholder="Your Message"
+              />
+            </div>
 
             <button
-              onClick={() => {
-                const inp = inputRef.current;
-                const body = bodyRef.current;
-                if (inp && body) {
-                  openEmailWithSubjectAndBody(
-                    "Contact portableCoder",
-                    `Hello, I'm ${inp.value} \n` + `${body.value}`
-                  );
-                }
-              }}
-              className="w-full p-4 bg-indigo-500"
+              aria-label="send mail"
+              type="submit"
+              className="w-full p-4 bg-indigo-600"
             >
               Send
             </button>
-          </div>
+          </form>
         </Window>
         <div className="w-3/4 m-auto border-b-2 border-zinc-700 "></div>
         <div className="w-full text-3xl text-center">Socials & Platforms</div>
