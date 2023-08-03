@@ -3,7 +3,7 @@
 
 ### About Me
 
-- 📖 &nbsp; Learning all that I can, currently doing a lot of react and front-end stuff
+- 📖 &nbsp; Learning all that I can, I specialize in front-end/fullstack stuff
 - ⚙️ &nbsp; Working on my own software to fit my personal use cases / contributing whenever I can.
 <h3> 🛠 Technologies I use/have learnt 🛠  </h3>
 
@@ -15,7 +15,7 @@
   Android | Flutter | React | ElectronJS | React-Native | Svelte
 - 🛢 |<b> Databases </b>|
   <br/>
-  MySQL | Firebase
+  PostgreSQL | Firebase | Supabase
 - 🔧 |<b> Tools </b>|
   <br/>
 
