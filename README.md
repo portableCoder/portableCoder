@@ -1,5 +1,4 @@
 <h2>👋 Hello! I'm portableCoder 👋</h2>
-<img align="right" alt="GIF" src="https://c.tenor.com/KBe_nw4IL2QAAAAC/matrix-code.gif" height="100%" width="500"/>
 
 ### About Me
 
